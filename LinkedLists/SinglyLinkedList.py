@@ -8,6 +8,7 @@ class SLinkedList:
         self.head = None
         self.tail = None
 
+
 singlyLinkedList = SLinkedList()
 node1 = node(1)
 node2 = node(2)
