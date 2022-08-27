@@ -8,7 +8,7 @@ class Solution(object):
             if m * m < x: l = m
             if m * m == x: return int(m)
         if r * r == x: return int(r)
-        return ((l + r) / 2)
+        return (l + r) / 2
 
         """
         :type x: int
